@@ -10,6 +10,4 @@ xcelium.d/
 
 *.shm/
 
-waves.shm/
-
-*.vcd
+waves.shm/*.vcd
