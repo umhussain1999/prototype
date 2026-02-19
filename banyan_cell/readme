@@ -1,0 +1,3 @@
+run cell.v cell_tb.v -top banyan_cell_tb -access +rwc -gui
+genus -f genus_synth.tcl
+

@@ -1,0 +1,7 @@
+# Cadence Genus(TM) Synthesis Solution, Version 25.10-p002_1, built Apr 17 2025 15:35:38
+
+# Date: Fri Feb 13 16:12:43 2026
+# Host: axonal-workstation-01 (x86_64 w/Linux 5.14.0-570.18.1.el9_6.x86_64) (24cores*24cpus*1physical cpu*Intel(R) Core(TM) Ultra 9 285 36864KB)
+# OS:   Red Hat Enterprise Linux 9.7 (Plow)
+
+source genus_synth.tcl

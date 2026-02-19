@@ -1,0 +1,8 @@
+#e1(19Feb2026:10:47:20): source ./xcelium.d/env.d/env.history.19Feb2026_10_47_20
+s1(19Feb2026:10:47:20):  xrun fifo.v fifo_tb.v -top fifo -access +rwc -gui 
+#e2(19Feb2026:10:48:59): source ./xcelium.d/env.d/env.history.19Feb2026_10_48_59
+s2(19Feb2026:10:48:59):  xrun fifo.v fifo_tb.v -top fifo_tb -access +rwc -gui 
+#e3(19Feb2026:10:49:44): source ./xcelium.d/env.d/env.history.19Feb2026_10_49_44
+s3(19Feb2026:10:49:44):  xrun fifo.v fifo_tb.v -top fifo -access +rwc -gui 
+#e4(19Feb2026:10:50:15): source ./xcelium.d/env.d/env.history.19Feb2026_10_50_15
+s4(19Feb2026:10:50:15):  xrun fifo.v fifo_tb.v -top fifo_tb -access +rwc -gui 

@@ -1,0 +1,11 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+/home/rdpuser/Documents/paradox_main/arbitration/conf_detection.v
+/home/rdpuser/Documents/paradox_main/arbitration/merge_control.v
+/home/rdpuser/Documents/paradox_main/arbitration/level0_cf_mc.v
+/home/rdpuser/Documents/paradox_main/arbitration/level1_cf_mc.v
+/home/rdpuser/Documents/paradox_main/arbitration/level2_cf_mc.v
+/home/rdpuser/Documents/paradox_main/arbitration/top.v
+/home/rdpuser/Documents/paradox_main/arbitration/tb_top.v

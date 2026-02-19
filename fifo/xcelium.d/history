@@ -1,0 +1,8 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(19Feb2026:10:47:20):( xrun fifo.v fifo_tb.v -top fifo -access +rwc -gui )&&(./xcelium.d/env.d/env.history.19Feb2026_10_47_20)
+s2::(19Feb2026:10:48:59):( xrun fifo.v fifo_tb.v -top fifo_tb -access +rwc -gui )&&(./xcelium.d/env.d/env.history.19Feb2026_10_48_59)
+s3::(19Feb2026:10:49:44):( xrun fifo.v fifo_tb.v -top fifo -access +rwc -gui )&&(./xcelium.d/env.d/env.history.19Feb2026_10_49_44)
+s4::(19Feb2026:10:50:15):( xrun fifo.v fifo_tb.v -top fifo_tb -access +rwc -gui )&&(./xcelium.d/env.d/env.history.19Feb2026_10_50_15)

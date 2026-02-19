@@ -1,0 +1,69 @@
+xrun(64): 25.03-s006: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	25.03-s006: Started on Feb 19, 2026 at 16:05:51 CST
+xrun
+	-f filelist.f
+		+incdir+.
+		conf_detection.v
+		merge_control.v
+		level0_cf_mc.v
+		level1_cf_mc.v
+		level2_cf_mc.v
+		top.v
+		tb_top.v
+	-top tb_top
+	-access +rwc
+	-gui
+Recompiling... reason: file './tb_top.v' is newer than expected.
+	expected: Thu Feb 19 16:03:42 2026
+	actual:   Thu Feb 19 16:05:45 2026
+file: tb_top.v
+	module worklib.tb_top:v
+		errors: 0, warnings: 0
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+	Top level design units:
+		tb_top
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.level2_cf_mc:v <0x38258604>
+			streams:   1, words:   280
+		worklib.level1_cf_mc:v <0x6b8a32b4>
+			streams:   1, words:   371
+		worklib.merge_control:v <0x701f18d9>
+			streams:   0, words:     0
+		worklib.conf_detection:v <0x39870a2b>
+			streams:   0, words:     0
+		worklib.level0_cf_mc:v <0x67b86085>
+			streams:   1, words:   371
+		worklib.tb_top:v <0x44d18437>
+			streams:  16, words:  9171
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                89       7
+		Registers:              15      15
+		Scalar wires:          363       -
+		Expanded wires:        196      14
+		Vectored wires:          1       -
+		Initial blocks:          1       1
+		Cont. assignments:       7       9
+		Pseudo assignments:     15       -
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.tb_top:v
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /tools/cadence_data/installs/XCELIUM2503/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm tb_top.merged_out tb_top.pri_l0_0 tb_top.pri_l0_1 tb_top.pri_l0_2 tb_top.pri_l0_3 tb_top.pri_l1_0 tb_top.pri_l1_1 tb_top.pri_l2 tb_top.rw0_a tb_top.rw0_b tb_top.rw1_a tb_top.rw1_b tb_top.rw2_a tb_top.rw2_b tb_top.rw3_a tb_top.rw3_b
+Created probe 1
+xcelium> run
+Simulation complete via $finish(1) at time 15 NS + 0
+./tb_top.v:55     $finish;
+xcelium> ^C
+xcelium> exit
+TOOL:	xrun(64)	25.03-s006: Exiting on Feb 19, 2026 at 16:06:27 CST  (total: 00:00:36)

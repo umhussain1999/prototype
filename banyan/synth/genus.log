@@ -1,0 +1,207 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2025 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[16:12:43.451977] Configured Lic search path (25.01-s002): 5280@axonal-workstation-01
+
+Version: 25.10-p002_1, built Thu Apr 17 13:35:38 PDT 2025
+Options: -files genus_synth.tcl 
+Date:    Fri Feb 13 16:12:43 2026
+Host:    axonal-workstation-01 (x86_64 w/Linux 5.14.0-570.18.1.el9_6.x86_64) (24cores*24cpus*1physical cpu*Intel(R) Core(TM) Ultra 9 285 36864KB) (130548528KB)
+PID:     859132
+OS:      Red Hat Enterprise Linux 9.7 (Plow)
+
+Checking out license: Genus_Synthesis
+[16:12:43.129568] Periodic Lic check successful
+[16:12:43.653858] Feature usage summary:
+[16:12:43.653859] Genus_Synthesis  
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Finished executable startup (2 seconds elapsed).
+
+Loading tool scripts...
+Finished loading tool scripts (8 seconds elapsed).
+
+#@ Processing -files option
+@genus:root: 1> source genus_synth.tcl
+#@ Begin verbose source ./genus_synth.tcl
+@file(genus_synth.tcl) 1: set_db common_ui false
+  Setting attribute of root '/': 'common_ui' = false
+  Setting attribute of root '/': 'information_level' = 6
+  Setting attribute of root '/': 'init_hdl_search_path' = ../
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'library_features' encountered. Ignoring (File /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib, Line 29)
+        : Check to see if this construct is really needed for synthesis. Many liberty constructs are not actually required.
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'define_group' encountered. Ignoring (File /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib, Line 55)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'define_group' encountered. Ignoring (File /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib, Line 56)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'define_group' encountered. Ignoring (File /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib, Line 57)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'define_group' encountered. Ignoring (File /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib, Line 58)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'define_group' encountered. Ignoring (File /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib, Line 59)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'define_group' encountered. Ignoring (File /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib, Line 60)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'define_group' encountered. Ignoring (File /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib, Line 61)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'define' encountered. Ignoring (File /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib, Line 62)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'define' encountered. Ignoring (File /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib, Line 63)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'define' encountered. Ignoring (File /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib, Line 64)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'define' encountered. Ignoring (File /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib, Line 65)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'define' encountered. Ignoring (File /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib, Line 66)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'define' encountered. Ignoring (File /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib, Line 67)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'define' encountered. Ignoring (File /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib, Line 68)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'define' encountered. Ignoring (File /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib, Line 69)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'define' encountered. Ignoring (File /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib, Line 70)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'define' encountered. Ignoring (File /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib, Line 71)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'define' encountered. Ignoring (File /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib, Line 72)
+Info    : An unsupported construct was detected in this library. [LBR-40]
+        : Unknown Liberty attribute 'define' encountered. Ignoring (File /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib, Line 73)
+Warning : Maximum message print count reached. [MESG-11]
+        : Maximum print count of '20' reached for message 'LBR-40'.
+
+  Message Summary for Library sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib:
+  *************************************************************************************
+  An unsupported construct was detected in this library. [LBR-40]: 105
+  *************************************************************************************
+ 
+            Reading file '/tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib'
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.050000, 25.000000) in library 'sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib'.
+        : The nominal operating condition is represented, either by the nominal PVT values specified in the library source (via nom_process,nom_voltage and nom_temperature respectively), or by the default PVT values (1.0,1.0,1.0).
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'ANTENNA3_A12TS_C40' must have an output pin.
+        : Add the missing output pin(s), then reload the library. Else the library cell will be marked as timing model i.e. unusable. Timing_model means that the cell does not have any defined function. If there is no output pin, Genus will mark library cell as unusable i.e. the attribute 'usable' will be marked to 'false' on the libcell. Therefore, the cell is not used for mapping and it will not be picked up from the library for synthesis. If you query the attribute 'unusable_reason' on the libcell; result will be: 'Library cell has no output pins.'Note: The message LBR-9 is only for the logical pins and not for the power_ground pins. Genus will depend upon the output function defined in the pin group (output pin) of the cell, to use it for mapping. The pg_pin will not have any function defined.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'ANTENNA3_A12TS_C40' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLSGCAP128_A12TS_C40' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLSGCAP128_A12TS_C40' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLSGCAP16_A12TS_C40' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLSGCAP16_A12TS_C40' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLSGCAP32_A12TS_C40' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLSGCAP32_A12TS_C40' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLSGCAP3_A12TS_C40' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLSGCAP3_A12TS_C40' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLSGCAP4_A12TS_C40' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLSGCAP4_A12TS_C40' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLSGCAP64_A12TS_C40' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLSGCAP64_A12TS_C40' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLSGCAP8_A12TS_C40' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLSGCAP8_A12TS_C40' must have an output pin.
+  Setting attribute of root '/': 'library' = /tools/cadence_data/PDKs_and_License_File/std_cell_28/TS55LB000-FE-r0p0-00eac0/arm/tsmc/cln28lp/sc12mc_base_svt_c40/r0p0/lib/sc12mc_cln28lp_base_svt_c40_tt_typical_max_1p05v_25c.lib
+Warning : Cannot open file. [VLOGPT-650]
+        : File '../cell.v'.
+        : The specified file could not be opened.  Check the value of the init_hdl_search_path attribute.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'CI' and 'S' in libcell 'ADDF_X1M_A12TS_C40'.
+        : Setting the 'timing_sense' to non_unate.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'S' in libcell 'ADDF_X1M_A12TS_C40'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A' and 'S' in libcell 'ADDF_X1M_A12TS_C40'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'CI' and 'S' in libcell 'ADDF_X1P4M_A12TS_C40'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'S' in libcell 'ADDF_X1P4M_A12TS_C40'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A' and 'S' in libcell 'ADDF_X1P4M_A12TS_C40'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'CI' and 'S' in libcell 'ADDF_X2M_A12TS_C40'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'S' in libcell 'ADDF_X2M_A12TS_C40'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A' and 'S' in libcell 'ADDF_X2M_A12TS_C40'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'B' and 'S' in libcell 'ADDH_X1M_A12TS_C40' is 'neg_unate', but unateness determined from function is 'non_unate'.
+        : The 'timing_sense' attribute will be respected.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'B' and 'S' in libcell 'ADDH_X1M_A12TS_C40' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'S' in libcell 'ADDH_X1M_A12TS_C40'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A' and 'S' in libcell 'ADDH_X1M_A12TS_C40' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A' and 'S' in libcell 'ADDH_X1M_A12TS_C40' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A' and 'S' in libcell 'ADDH_X1M_A12TS_C40'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'B' and 'S' in libcell 'ADDH_X1P4M_A12TS_C40' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'B' and 'S' in libcell 'ADDH_X1P4M_A12TS_C40' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'S' in libcell 'ADDH_X1P4M_A12TS_C40'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A' and 'S' in libcell 'ADDH_X1P4M_A12TS_C40' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'A' and 'S' in libcell 'ADDH_X1P4M_A12TS_C40' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A' and 'S' in libcell 'ADDH_X1P4M_A12TS_C40'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'B' and 'S' in libcell 'ADDH_X2M_A12TS_C40' is 'neg_unate', but unateness determined from function is 'non_unate'.
+Info    : Mismatch in unateness between 'timing_sense' attribute and the function. [LBR-155]
+        : 'timing_sense' attribute between pin 'B' and 'S' in libcell 'ADDH_X2M_A12TS_C40' is 'pos_unate', but unateness determined from function is 'non_unate'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'B' and 'S' in libcell 'ADDH_X2M_A12TS_C40'.
+Info    : Setting the maximum print count of this message to 10 if information_level is less than 9. [LBR-161]
+        : To print all the warning messages, set the information_level to 9.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'A' and 'S' in libcell 'ADDH_X2M_A12TS_C40'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'S0' and 'Y' in libcell 'MX2_X0P5B_A12TS_C40'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'S0' and 'Y' in libcell 'MX2_X0P7B_A12TS_C40'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'S0' and 'Y' in libcell 'MX2_X1B_A12TS_C40'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'S0' and 'Y' in libcell 'MX2_X1P4B_A12TS_C40'.
+Info    : Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed. [LBR-162]
+        : Non_unate 'timing_sense' inferred between pin 'S0' and 'Y' in libcell 'MX2_X2B_A12TS_C40'.
+Warning : Maximum message print count reached. [MESG-11]
+        : Maximum print count of '20' reached for message 'LBR-162'.
+  Library has 682 usable logic and 128 usable sequential lib-cells.
+Error   : Could not find an HDL design. [CDFG-210] [elaborate]
+        : The design is 'banyan_cell'.
+        : This error may happen if you read a set of files, and you try to elaborate a design which description is not part of the files read. To fix this, check the name of the design you want to elaborate, or check if you have read all the expected RTL files.
+UM:   flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
+UM:*                                                                   elaborate
+#@ End verbose source ./genus_synth.tcl
+1
+Encountered problems processing file: genus_synth.tcl
+WARNING: This version of the tool is 302 days old.
+
+Another Ctrl-C within 1 second will terminate the tool.
+CURRENT RESOURCES: RT {elapsed: 48s, ST: 11s, FG: 11s, CPU: 2.0%}, MEM {curr: 1.8G, peak: 1.8G, phys curr: 1.0G, phys peak: 1.0G}, SYS {load: 0.0, cpu: 24, total: 124.5G, free: 96.0G}
+legacy_genus:/> 

@@ -1,0 +1,51 @@
+xrun(64): 25.03-s006: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	25.03-s006: Started on Feb 19, 2026 at 10:50:15 CST
+xrun
+	fifo.v
+	fifo_tb.v
+	-top fifo_tb
+	-access +rwc
+	-gui
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+	Top level design units:
+		fifo_tb
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.fifo:v <0x0bba93ea>
+			streams:   8, words:  3359
+		worklib.fifo_tb:v <0x6e9c9faf>
+			streams:   7, words:  7274
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 2       2
+		Registers:              11      11
+		Scalar wires:            6       -
+		Vectored wires:          2       -
+		Always blocks:           4       4
+		Initial blocks:          1       1
+		Cont. assignments:       1       2
+		Pseudo assignments:      5       -
+		Process Clocks:          2       1
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.fifo_tb:v
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /tools/cadence_data/installs/XCELIUM2503/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm fifo_tb.clk fifo_tb.data_in fifo_tb.data_out fifo_tb.empty fifo_tb.full fifo_tb.i fifo_tb.r_en fifo_tb.rst_n fifo_tb.w_en
+Created probe 1
+xcelium> run
+Simulation complete via $finish(1) at time 295 NS + 0
+./fifo_tb.v:153         $finish;
+xcelium> ^C
+xcelium> exit
+...Regained control from SimVision
+-------------------------------------
+TOOL:	xrun(64)	25.03-s006: Exiting on Feb 19, 2026 at 10:59:39 CST  (total: 00:09:24)

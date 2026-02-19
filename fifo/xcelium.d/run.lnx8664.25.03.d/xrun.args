@@ -1,0 +1,11 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+fifo.v
+fifo_tb.v
+-top
+fifo_tb
+-access
++rwc
+-gui
