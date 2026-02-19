@@ -1,0 +1,15 @@
+INCA_libs/
+
+xcelium.d/
+
+*.log
+
+*.history
+
+*.key
+
+*.shm/
+
+waves.shm/
+
+*.vcd
