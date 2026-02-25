@@ -1,71 +1,37 @@
 `timescale 1ns/1ps
-
-
-
 module fifo_processor_mux #(
-
     parameter integer WIDTH = 8
-
 )(
 
     input  wire [WIDTH-1:0] in_packet,
 
-
-
     input  wire             full0,
-
     input  wire             full1,
-
     input  wire             full2,
-
     input  wire             full3,
-
     input  wire             full4,
-
     input  wire             full5,
-
     input  wire             full6,
-
     input  wire             full7,
-
-
-
     output wire             in_ready,
-
-
-
     output wire             w_en0,
-
     output wire             w_en1,
-
     output wire             w_en2,
-
     output wire             w_en3,
-
     output wire             w_en4,
-
     output wire             w_en5,
-
     output wire             w_en6,
-
     output wire             w_en7,
 
 
 
     output wire [WIDTH-1:0] data_in0,
-
     output wire [WIDTH-1:0] data_in1,
-
     output wire [WIDTH-1:0] data_in2,
-
     output wire [WIDTH-1:0] data_in3,
-
     output wire [WIDTH-1:0] data_in4,
-
     output wire [WIDTH-1:0] data_in5,
-
     output wire [WIDTH-1:0] data_in6,
-
     output wire [WIDTH-1:0] data_in7
 
 );
