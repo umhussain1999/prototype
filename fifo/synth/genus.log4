@@ -1,0 +1,28 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2025 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[14:03:22.451937] Configured Lic search path (25.01-s002): 5280@axonal-workstation-01
+
+Version: 25.10-p002_1, built Thu Apr 17 13:35:38 PDT 2025
+Options: -files genus 
+Date:    Wed Feb 25 14:03:22 2026
+Host:    axonal-workstation-01 (x86_64 w/Linux 5.14.0-570.18.1.el9_6.x86_64) (24cores*24cpus*1physical cpu*Intel(R) Core(TM) Ultra 9 285 36864KB) (130548528KB)
+PID:     389183
+OS:      Red Hat Enterprise Linux 9.7 (Plow)
+
+Checking out license: Genus_Synthesis
+[14:03:22.475154] Periodic Lic check successful
+[14:03:22.475163] Feature usage summary:
+[14:03:22.475163] Genus_Synthesis  
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Finished executable startup (2 seconds elapsed).
+
+Loading tool scripts...
